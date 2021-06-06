@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+.icon-container {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .arrowUp,
+  .arrowDown {
+    width: 24px;
+    height: 24px;
+  }
+
+  .search {
+    width: 17px;
+    height: 17px;
+  }
+}

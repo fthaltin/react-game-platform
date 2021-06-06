@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+
+  .row {
+    margin: 0 -10px;
+    .col {
+      padding: 0 10px;
+    }
+  }
+
+  &.small-container {
+    max-width: 800px;
+  }
+}

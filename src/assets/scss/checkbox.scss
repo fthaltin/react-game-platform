@@ -1,0 +1,40 @@
+@import './variables.scss';
+
+.custom-checkbox-container {
+  display: flex;
+  align-items: center;
+  .custom-checkbox {
+    // display: flex;
+    .rc-checkbox-input {
+      width: 24px;
+      height: 24px;
+    }
+    .rc-checkbox-inner {
+      width: 24px;
+      height: 24px;
+      border-radius: 0;
+      background: transparent;
+      border: 1px solid $text;
+      margin-right: 20px;
+
+      &:after {
+        opacity: 0;
+      }
+    }
+
+    &.rc-checkbox-checked {
+      .rc-checkbox-inner {
+        border: 1px solid $green;
+        background: $green;
+
+        &:after {
+          opacity: 1;
+          left: 8px;
+          top: 3px;
+          width: 4px;
+          height: 10px;
+        }
+      }
+    }
+  }
+}
