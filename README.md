@@ -7,3 +7,5 @@ In the project directory, you can run:
 Then
 
 ### `npm start`
+
+[https://fthaltin.github.io/react-game-platform/] (https://fthaltin.github.io/react-game-platform/)
